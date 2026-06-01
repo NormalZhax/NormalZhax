@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Zhax Store</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header>
+  <div class="logo">ZHAX <span>STORE</span></div>
+  <nav>
+    <a href="#">Beranda</a>
+    <a href="#topup">Top Up</a>
+    <a href="#joki">Jasa Joki Game</a>
+    <a href="#pesan">Cek Pesanan</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="hero-text">
+    <h1>Top Up & Joki Rank<br>Termurah & Terpercaya</h1>
+    <p>Pelayanan cepat, aman dan terpercaya.</p>
+    <div class="btn-group">
+      <a class="btn primary" href="#topup">Top Up Sekarang</a>
+      <a class="btn" href="#joki">Lihat Joki Rank</a>
+    </div>
+  </div>
+
+  <div class="hero-img">
+    <img src="https://i.ibb.co/Jt7RZL4/mlbb.png" alt="hero">
+  </div>
+</section>
+
+<section id="topup" class="section">
+  <h2>Top Up Game</h2>
+
+  <div class="cards">
+    <div class="card">
+      <img src="https://i.ibb.co/Jt7RZL4/mlbb.png">
+      <h3>Mobile Legend</h3>
+      <button onclick="orderWA('Top Up Mobile Legend 86 Diamond - Rp 20.000')">Pesan via WhatsApp</button>
+    </div>
+
+    <div class="card">
+      <img src="https://i.ibb.co/TM1g4D6/freefire.jpg">
+      <h3>Free Fire</h3>
+      <button onclick="orderWA('Top Up Free Fire 140 Diamond - Rp 25.000')">Pesan via WhatsApp</button>
+    </div>
+
+    <div class="card">
+      <img src="https://i.ibb.co/0Y7J0xQ/pubg.jpg">
+      <h3>PUBG Mobile</h3>
+      <button onclick="orderWA('Top Up PUBG UC 60 - Rp 15.000')">Pesan via WhatsApp</button>
+    </div>
+  </div>
+</section>
+
+<section id="joki" class="section dark">
+   <h2>Joki Arena Breakout</h2>
+    
+ <div class="rank-grid">
+    <div class="rank-box">
+       <img src="mandor.png" alt="Joki Epic" class="rank-img">
+      <h3>1M Mandor/VIP Loot</h3>
+      <button onclick="orderWA('Joki 1M Mandor/VIP Loot')">Pesan via WhatsApp</button>
+    </div>
+
+  <div class="rank-grid">
+     <div class="rank-box">
+      <img src="value.png" alt="Joki Epic" class="rank-img">
+      <h3>1M Value</h3>
+      <button onclick="orderWA('Joki 1M Value Arena Breakout')">Pesan via WhatsApp</button>
+    </div>
+    
+      <div class="rank-grid">
+      <div class="rank-box">
+       <img src="koen.png" alt="Joki Epic" class="rank-img">
+      <h3>1M Koen</h3>
+      <button onclick="orderWA('Joki 1M Koen Arena Breakout')">Pesan via WhatsApp</button>
+    </div>
+
+<h2>Joki Rank Mobile Legend</h2>
+
+<div class="rank-grid">
+
+  <div class="rank-box">
+    <img src="epic.png" class="rank-img">
+    <h3>Epic</h3>
+    <button onclick="orderWA('Joki Rank Epic Mobile Legends')">
+      Pesan via WhatsApp
+    </button>
+  </div>
+
+  <div class="rank-box">
+    <img src="legend.png" class="rank-img">
+    <h3>Legend</h3>
+    <button onclick="orderWA('Joki Rank Legend Mobile Legends')">
+      Pesan via WhatsApp
+    </button>
+  </div>
+
+  <div class="rank-box">
+    <img src="mythic.png" class="rank-img">
+    <h3>Mythic</h3>
+    <button onclick="orderWA('Joki Rank Mythic Mobile Legends')">
+      Pesan via WhatsApp
+    </button>
+  </div>
+
+  <div class="rank-box">
+    <img src="mglory.png" class="rank-img">
+    <h3>Mythic Glory</h3>
+    <button onclick="orderWA('Joki Rank Mythic Glory Mobile Legends')">
+      Pesan via WhatsApp
+    </button>
+  </div>
+
+</div>
+</section>
+
+<section class="section payment" id="pesan">
+  <div class="payment-box">
+    <h2>Detail Pesanan</h2>
+    <p>Produk: 86 Diamond</p>
+    <p>Total: Rp 20.000</p>
+  </div>
+
+  <div class="payment-box">
+    <h2>Metode Pembayaran</h2>
+    <img class="qr" src="qrzhax.png"/>
+    <p>Scan QR untuk pembayaran</p>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Zhax Store - All Rights Reserved</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
